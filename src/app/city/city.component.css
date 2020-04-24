@@ -1,0 +1,31 @@
+h1{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  border-radius: 8px;
+  background-color: gainsboro;
+  width: 30%;
+  right: 50%;
+  text-align: center;
+  top: 20%;
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+}
+div{
+  zoom: 120%;
+}
+#code{
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px;
+}
+
+#city{
+  border-radius: 5px;
+  text-align: center;
+}
+button{
+  border-radius: 5px;
+ margin: 10px;
+}

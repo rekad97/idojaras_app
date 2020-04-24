@@ -1,0 +1,19 @@
+<div class="container">
+  <mat-tab-group
+    class="main-tab-group mt-2"
+    [selectedIndex]="selectedTab"
+    (selectedTabChange)="tabChanged($event)"
+  >
+    <mat-tab *ngFor="let tab of tabs; let tabIndex = index">
+      <ng-template mat-tab-label
+      >{{ tab.title }}
+        <button img="" class="material-icons" (click)="removeTab(tabIndex)">
+          close
+        </button>
+      </ng-template>
+      <div>
+        <app-tab-content [tab]="tab"></app-tab-content>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+</div>

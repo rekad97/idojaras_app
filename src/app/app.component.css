@@ -1,0 +1,18 @@
+.img{
+  opacity: 50%;
+}
+.navbar-nav{
+  background-color: gainsboro;
+  padding: 15px;
+  border-radius: 8px;
+}
+.navbar-nav > .link {
+  padding: 8px;
+}
+.navbar-nav > button {
+  background-color: gainsboro;
+  border: none;
+  color: #1c118d;
+  font-weight: bold;
+  font-family: "Arial Black", sans-serif;
+}

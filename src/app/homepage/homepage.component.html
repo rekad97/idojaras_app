@@ -1,0 +1,28 @@
+<h1>Hi {{currentUser?.firstName}}!</h1>
+<div class="container">
+  <table class="weather_table">
+    <tr>
+      <td class="title">City</td>
+      <td>{{weather.name}}</td>
+    </tr>
+    <tr>
+      <td class="title">Temperature</td>
+      <td>{{weather.main.temp}}</td>
+    </tr>
+    <tr>
+      <td class="title">Humidity</td>
+      <td>{{weather.main.humidity}}</td>
+    </tr>
+    <tr>
+      <td class="title">Pressure</td>
+      <td>{{weather.main.pressure}}</td>
+    </tr>
+    <tr>
+      <td class="title">Wind</td>
+      <td>{{weather.wind.deg}}, {{weather.wind.speed}}</td>
+    </tr>
+  </table>
+</div>
+<div class="line_chart">
+  <canvas #chart>{{ chart }}</canvas>
+</div>
